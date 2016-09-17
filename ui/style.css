@@ -15,8 +15,9 @@ font-weight:bold;
     font-size: 200%;
 }
 .top{
-background-color:orange;
+background-color:lightblue;
 font-weight:italic;
+font-color:black;
 }
 .bold {
     font-weight: bold;
