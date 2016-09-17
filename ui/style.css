@@ -5,6 +5,8 @@ body {
 h1{
 background-color:cadetblue;
 font-weight:bold;
+position:absolute;
+top:1px;
 }
 .center {
     text-align:right;
