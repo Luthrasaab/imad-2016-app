@@ -16,9 +16,10 @@ font-weight:bold;
 .top{
 background-color:lightblue;
 font-weight:lighter;
-text-decoration:coral;
 }
-
+.a1{
+    text-decoration:coral;
+}
 .bold {
     font-weight: bold;
 }
