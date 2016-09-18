@@ -3,33 +3,45 @@
         <link src="ui/style.css" rel="stylesheet" />
         <meta name="viewport" content="width=device-width ,initial-scale=1" />
     <style>
-        .Container{
-            background:black;
-            postion:relative;
-            top:10px;
-            }
-            .container{
+        
+            .outerdiv{
                 max-width:1200px;
                 margin:0 auto;
                 color:grey;
                 font-family:sans-serif;
                 padding-left:50px;
                 padding-right:50px;
+                background:black;
+            }
+            .innerdiv1{
+            background:black;
+            position:relative;
+            top:10px;
+            }
+            .innerdiv2{
+                background:orange;
+                position:relative;
+                top:20px;
             }
             body{
-                color:grey;
+                background:grey;
             }
     </style>
     </head>
     <body>
-        <div class="container">
-        <div class="Container">
+        <div class="outerdiv">
+        <div class="innerdiv1">
         <a href="/">Home </a> 
+        
+        
         <a href="some.js">  NewBlogs  </a>
+        
+        
         <a href="some.js">  OldBlogs  </a>
         </div>
         <hr/>
-        <div>
+        
+        <div class="innerdiv2">
             <a href="C-language.html">C-Language</a>
         </div>
         <hr/>
