@@ -2,12 +2,7 @@ body {
     font-family: Times New Roman;
     margin-top: 75px;
 }
-h1{
-background-color:cadetblue;
-font-weight:bold;
-position:absolute;
-top:1px;
-}
+
 .center {
     text-align:center;
 }
