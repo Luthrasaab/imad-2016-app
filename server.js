@@ -8,15 +8,7 @@ app.use(morgan('combined'));
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/C-language.html',function(req, res){
-   res.sendFile(path.join(__dirname,'ui','C-language.html')); 
-});
-app.get('/Java-language.html',function(req, res){
-   res.sendFile(path.join(__dirname,'ui','Java-language.html')); 
-});
-app.get('/Python-language.html',function(req, res){
-   res.sendFile(path.join(__dirname,'ui','Python-language.html')); 
-});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
