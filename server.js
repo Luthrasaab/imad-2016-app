@@ -23,6 +23,9 @@ app.get('/ui/user.html', function (req, res) {
 app.get('/ui/for_blogger.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'for_blogger.html'));
 });
+app.get('/ui/login.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'login.html'));
+});
 
 
 
