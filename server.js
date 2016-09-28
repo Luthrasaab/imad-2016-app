@@ -20,6 +20,9 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/ui/user.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'user.html'));
 });
+app.get('/ui/for blogger.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'for blogger.html'));
+});
 
 
 
