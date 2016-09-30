@@ -42,42 +42,34 @@
                 background-size:cover;
             }
             #d1{
-    width: 100px;
-    height: 100px;
-    background-color:black;
+   width: 200px;
+    height: 50px;
+    background-color: grey;
+    font-weight: bold;
     position: relative;
-    -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
-    animation-name: example;
-    animation-duration: 4s;
-    animation-delay: 2s;
+     -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    0%   {background-color:black; left:0px; top:0px;}
-    25%  {background-color:grey; left:200px; top:0px;}
-    50%  {background-color:white; left:200px; top:200px;}
-    75%  {background-color:black; left:0px; top:200px;}
-    100% {background-color:grey; left:0px; top:0px;}
+#d1{-webkit-animation-timing-function: linear;}
+#d2{animation-timing-function: linear;}
+    @-webkit-keyframes mymove {
+    from {left: 10px;}
+    to {left: 800px;}
 }
 
 /* Standard syntax */
-@keyframes example {
-    0%   {background-color:black; left:0px; top:0px;}
-    25%  {background-color:grey; left:200px; top:0px;}
-    50%  {background-color:white; left:200px; top:200px;}
-    75%  {background-color:black; left:0px; top:200px;}
-    100% {background-color:grey; left:0px; top:0px;}
+@keyframes mymove {
+    from {left: 10px;}
+    to {left: 800px;}
 }
     </style>
     </head>
     <body id='Body'>
   <div class='jumbotron' >
-  <h1>
-      Blogger's Lounge
-  </h1>
+  <div id='d1'>
+   Blogger's Lounge 
+</div>
  </div>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -105,8 +97,6 @@
      </div>
 
 </nav>
-<div id='d1'>
-    
-</div>
+
     </body>
 </html>
