@@ -41,6 +41,36 @@
                 background-image:url(https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAXiAAAAJDg2Y2VkOGM1LTM5MzUtNDY1MS1iOTZhLTQ5NWVmYzQxNjJmNQ.jpg);
                 background-size:cover;
             }
+            #d1{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:grey; left:200px; top:0px;}
+    50%  {background-color:white; left:200px; top:200px;}
+    75%  {background-color:black; left:0px; top:200px;}
+    100% {background-color:grey; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:black; left:0px; top:0px;}
+    25%  {background-color:grey; left:200px; top:0px;}
+    50%  {background-color:white; left:200px; top:200px;}
+    75%  {background-color:black; left:0px; top:200px;}
+    100% {background-color:grey; left:0px; top:0px;}
+}
     </style>
     </head>
     <body id='Body'>
@@ -75,6 +105,8 @@
      </div>
 
 </nav>
-
+<div id='d1'>
+    
+</div>
     </body>
 </html>
