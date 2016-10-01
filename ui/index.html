@@ -44,7 +44,7 @@
             #d1{
    width: 200px;
     height: 100px;
-    background-color: grey;
+    background-color: rgba(255,0,0,0.3);
     font-weight: bold;
     font-weight:italic;
     text-align:center;
@@ -58,14 +58,14 @@
 #d1{-webkit-animation-timing-function: linear;}
 #d1{animation-timing-function: linear;}
     @-webkit-keyframes mymove {
-    from {left: 10px;}
-    to {left: 1100px;}
+    from {background-color:rgba(255,0,0,0.3) ;left: 10px;}
+    to {background-color:rgba(0,0,255,0.3) ;left: 1100px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    from {left: 10px;}
-    to {left: 1100px;}
+    from {background-color:rgba(255,0,0,0.3) ;left: 10px;}
+    to {background-color:rgba(0,0,255,0.3) ;left: 1100px;}
 }
 .jumbotron{
     border-style:solid;
