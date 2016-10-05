@@ -16,7 +16,7 @@ button.onclick = function(){
     request.send(null);
   
 };
-myFunction(){
+function myFunction(){
   alert("Your Comment is Succesfully Submitted");
 }
 var B2= document.getElementById('b2');
