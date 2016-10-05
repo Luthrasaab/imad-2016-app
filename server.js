@@ -36,10 +36,10 @@ app.get('/ui/foodarticle.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'foodarticle.html'));
 });
 app.get('/ui/travelarticle.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'travelartcile.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'travelarticle.html'));
 });
 app.get('/ui/booksarticle.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'booksartcile.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'booksarticle.html'));
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
