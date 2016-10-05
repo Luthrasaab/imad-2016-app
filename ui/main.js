@@ -17,14 +17,14 @@ button.onclick = function(){
   
 };
 var B2= document.getElementById('b2');
-B2.onclick = function(){
- var T1 = document.getElementById('t1');
+ myFunction(){
+/* var T1 = document.getElementById('t1');
   var request = new XMLHttpRequest();
   request.onreadystatechange = function(){
     
     if(request.readystate === XMLHttpRequest.DONE){
         
     }  
-  };
+  };*/
   alert("Your Comment is Succesfully Submitted");
 };
