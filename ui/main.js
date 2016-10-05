@@ -27,4 +27,4 @@ B2.myFunction(){
     }  
   };*/
   alert("Your Comment is Succesfully Submitted");
-};
+}
