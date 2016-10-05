@@ -16,3 +16,15 @@ button.onclick = function(){
     request.send(null);
   
 };
+var B2= document.getElementById('b2');
+B2.onClick = function(){
+ var T1 = document.getElementById('t1');
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function(){
+    
+    if(request.readystate === XMLHttpRequest.DONE){
+        
+    }  
+  };
+  alert('Your Comment is Succesfully Submitted');
+};
