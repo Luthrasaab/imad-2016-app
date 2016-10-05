@@ -17,7 +17,7 @@ button.onclick = function(){
   
 };
 var B2= document.getElementById('b2');
- myFunction(){
+B2.myFunction(){
 /* var T1 = document.getElementById('t1');
   var request = new XMLHttpRequest();
   request.onreadystatechange = function(){
