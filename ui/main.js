@@ -26,5 +26,5 @@ B2.onclick = function(){
         
     }  
   };
-  alert('Your Comment is Succesfully Submitted');
+  alert("Your Comment is Succesfully Submitted");
 };
