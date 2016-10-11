@@ -16,17 +16,14 @@ button.onclick = function(){
     request.send(null);
   
 };
-function myFunction(){
-  alert("Your Comment is Succesfully Submitted");
-}
 var B2= document.getElementById('b2');
 B2.myFunction();
-/* var T1 = document.getElementById('t1');
+var T1 = document.getElementById('t1');
   var request = new XMLHttpRequest();
   request.onreadystatechange = function(){
     
     if(request.readystate === XMLHttpRequest.DONE){
         
     }  
-  };*/
+  };
   
